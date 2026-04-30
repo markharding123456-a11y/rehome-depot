@@ -79,53 +79,15 @@ a:hover { color: var(--walnut-dark); }
 }
 
 .logo {
-    display: flex;
-    align-items: center;
-    gap: 0.7rem;
-    font-weight: 700;
-    color: var(--charcoal);
-}
-
-.logo:hover { color: var(--charcoal); }
-
-.logo-mark {
     display: inline-flex;
     align-items: center;
-    justify-content: center;
-    height: 44px;
     flex-shrink: 0;
 }
 
-.logo-mark img {
-    height: 100%;
+.logo-image {
+    height: 54px;
     width: auto;
     display: block;
-}
-
-.logo-wordmark {
-    display: flex;
-    flex-direction: column;
-    line-height: 1;
-}
-
-.logo-article {
-    font-family: Georgia, "Times New Roman", serif;
-    font-style: italic;
-    font-weight: 400;
-    font-size: 0.78rem;
-    color: var(--text-muted);
-    letter-spacing: 0.02em;
-    margin-bottom: 2px;
-    margin-left: 1px;
-}
-
-.logo-name {
-    font-family: Georgia, "Times New Roman", serif;
-    font-size: 1.25rem;
-    font-weight: 700;
-    letter-spacing: 0.02em;
-    color: var(--charcoal);
-    line-height: 1;
 }
 
 .main-nav {
