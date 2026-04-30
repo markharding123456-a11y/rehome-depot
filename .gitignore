@@ -12,3 +12,6 @@ desktop.ini
 .vscode/
 .idea/
 *.swp
+
+# Reference / source-of-truth assets that aren't deployed
+RehomeDepot Picture from outside.jpeg
