@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rehome Depot — Used & Consignment Furniture | Grand Forks, BC</title>
+    <meta name="description" content="Quality used and consignment furniture, decor, and home goods in Grand Forks, BC. Browse our changing selection of pre-loved pieces.">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+    <div class="container header-inner">
+        <a href="index.html" class="logo">
+            <span class="logo-mark">RD</span>
+            <span class="logo-text">Rehome Depot</span>
+        </a>
+        <nav class="main-nav">
+            <a href="index.html" class="active">Home</a>
+            <a href="about.html">About</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+        <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">
+            <span></span><span></span><span></span>
+        </button>
+    </div>
+</header>
+
+<section class="hero">
+    <div class="container hero-inner">
+        <h1>Pre-loved pieces, ready for a new home.</h1>
+        <p class="hero-tagline">
+            Quality used and consignment furniture, decor, and home goods in Grand Forks, BC.
+            Our inventory changes daily &mdash; come browse what&rsquo;s new.
+        </p>
+        <div class="hero-actions">
+            <a href="gallery.html" class="btn btn-primary">Browse Gallery</a>
+            <a href="contact.html" class="btn btn-secondary">Visit the Store</a>
+        </div>
+    </div>
+</section>
+
+<section class="section section-featured">
+    <div class="container">
+        <div class="section-heading-row">
+            <h2>Recent Arrivals</h2>
+            <a href="gallery.html" class="link-cta">See full gallery &rarr;</a>
+        </div>
+        <p class="section-intro">
+            A few of the pieces in store right now. Inventory changes constantly &mdash;
+            head to the gallery for everything we&rsquo;ve got.
+        </p>
+        <div class="gallery-grid" id="featuredGrid">
+            <p class="gallery-loading">Loading items&hellip;</p>
+        </div>
+    </div>
+</section>
+
+<section class="section section-about-teaser">
+    <div class="container">
+        <div class="teaser-grid">
+            <div>
+                <h2>Good furniture, second time around.</h2>
+                <p class="lead">
+                    We give good furniture a second life. Used pieces, consignment sales,
+                    estate &amp; downsizing help, and local pickup &amp; delivery in the
+                    Boundary area.
+                </p>
+                <a href="about.html" class="btn btn-secondary">Learn more about us</a>
+            </div>
+            <div class="teaser-stats">
+                <div class="stat">
+                    <span class="stat-icon" aria-hidden="true">&#9733;</span>
+                    <strong>Quality first</strong>
+                    <span>Every piece cleaned, inspected, and priced to move.</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-icon" aria-hidden="true">&#8635;</span>
+                    <strong>Constantly changing</strong>
+                    <span>New arrivals every week. If you don&rsquo;t see it today, check back soon.</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-icon" aria-hidden="true">&#9873;</span>
+                    <strong>Local to the Boundary</strong>
+                    <span>136 Sagamore Rd, Grand Forks. Drop in any time during open hours.</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section-cta">
+    <div class="container cta-inner">
+        <h2>Come see for yourself.</h2>
+        <p>Photos only tell half the story &mdash; the best way to find your next favourite piece is to browse in person.</p>
+        <a href="contact.html" class="btn btn-primary">Get directions</a>
+    </div>
+</section>
+
+<footer class="site-footer">
+    <div class="container footer-inner">
+        <p>&copy; <span id="footerYear"></span> Rehome Depot. Grand Forks, BC.</p>
+        <p class="footer-tag">Good furniture, second time around.</p>
+    </div>
+</footer>
+
+<div id="lightbox" class="lightbox" hidden>
+    <button class="lightbox-close" aria-label="Close">&times;</button>
+    <div class="lightbox-content">
+        <img id="lightboxImage" src="" alt="">
+        <div class="lightbox-info">
+            <h3 id="lightboxTitle"></h3>
+            <p id="lightboxPrice" class="lightbox-price"></p>
+            <p id="lightboxDescription"></p>
+            <p id="lightboxStatus" class="lightbox-status"></p>
+        </div>
+    </div>
+</div>
+
+<script src="data/inventory.js"></script>
+<script src="js/gallery.js"></script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="600" height="450">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ebe4d2"/>
+      <stop offset="1" stop-color="#d6cdb7"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="450" fill="url(#bg)"/>
+  <g opacity="0.28" fill="none" stroke="#6b4f3a" stroke-width="3" stroke-linejoin="round">
+    <path d="M 220 160 L 260 160 L 270 230 L 210 230 Z"/>
+    <line x1="240" y1="230" x2="240" y2="290"/>
+    <ellipse cx="240" cy="295" rx="22" ry="6"/>
+    <path d="M 340 160 L 380 160 L 390 230 L 330 230 Z"/>
+    <line x1="360" y1="230" x2="360" y2="290"/>
+    <ellipse cx="360" cy="295" rx="22" ry="6"/>
+  </g>
+  <text x="300" y="360" text-anchor="middle" font-family="Georgia,serif" font-size="22" fill="#4a3526">Pair of Brass Table Lamps</text>
+  <text x="300" y="388" text-anchor="middle" font-family="-apple-system,Segoe UI,sans-serif" font-size="13" fill="#6b6358" letter-spacing="0.05em">PHOTO COMING SOON</text>
+</svg>

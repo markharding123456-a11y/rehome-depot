@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery | Rehome Depot &mdash; Grand Forks, BC</title>
+    <meta name="description" content="Browse current inventory at Rehome Depot. Used and consignment furniture, decor, lighting, and home goods in Grand Forks, BC.">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+    <div class="container header-inner">
+        <a href="index.html" class="logo">
+            <span class="logo-mark">RD</span>
+            <span class="logo-text">Rehome Depot</span>
+        </a>
+        <nav class="main-nav">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="gallery.html" class="active">Gallery</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+        <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">
+            <span></span><span></span><span></span>
+        </button>
+    </div>
+</header>
+
+<section class="page-hero">
+    <div class="container">
+        <h1>Current Gallery</h1>
+        <p>What&rsquo;s in store right now &mdash; updated regularly.</p>
+    </div>
+</section>
+
+<section class="section section-gallery">
+    <div class="container">
+        <p class="section-intro">
+            Inventory changes constantly &mdash; if you see something you like, drop in or call
+            to confirm it&rsquo;s still available. SOLD and ON HOLD items are left up so you can see
+            what&rsquo;s recently moved.
+        </p>
+
+        <div class="gallery-filters" id="galleryFilters">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="furniture">Furniture</button>
+            <button class="filter-btn" data-filter="decor">Decor</button>
+            <button class="filter-btn" data-filter="lighting">Lighting</button>
+            <button class="filter-btn" data-filter="other">Other</button>
+        </div>
+
+        <div class="gallery-grid" id="galleryGrid">
+            <p class="gallery-loading">Loading items&hellip;</p>
+        </div>
+    </div>
+</section>
+
+<footer class="site-footer">
+    <div class="container footer-inner">
+        <p>&copy; <span id="footerYear"></span> Rehome Depot. Grand Forks, BC.</p>
+        <p class="footer-tag">Good furniture, second time around.</p>
+    </div>
+</footer>
+
+<div id="lightbox" class="lightbox" hidden>
+    <button class="lightbox-close" aria-label="Close">&times;</button>
+    <div class="lightbox-content">
+        <img id="lightboxImage" src="" alt="">
+        <div class="lightbox-info">
+            <h3 id="lightboxTitle"></h3>
+            <p id="lightboxPrice" class="lightbox-price"></p>
+            <p id="lightboxDescription"></p>
+            <p id="lightboxStatus" class="lightbox-status"></p>
+        </div>
+    </div>
+</div>
+
+<script src="data/inventory.js"></script>
+<script src="js/gallery.js"></script>
+</body>
+</html>

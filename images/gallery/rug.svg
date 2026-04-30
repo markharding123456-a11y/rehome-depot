@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="600" height="450">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ebe4d2"/>
+      <stop offset="1" stop-color="#d6cdb7"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="450" fill="url(#bg)"/>
+  <g opacity="0.28" fill="none" stroke="#6b4f3a" stroke-width="3" stroke-linejoin="round">
+    <rect x="160" y="160" width="280" height="170" rx="6"/>
+    <rect x="180" y="180" width="240" height="130" rx="3"/>
+    <rect x="210" y="210" width="180" height="70" rx="3"/>
+    <line x1="160" y1="155" x2="160" y2="145"/>
+    <line x1="200" y1="155" x2="200" y2="145"/>
+    <line x1="240" y1="155" x2="240" y2="145"/>
+    <line x1="280" y1="155" x2="280" y2="145"/>
+    <line x1="320" y1="155" x2="320" y2="145"/>
+    <line x1="360" y1="155" x2="360" y2="145"/>
+    <line x1="400" y1="155" x2="400" y2="145"/>
+    <line x1="440" y1="155" x2="440" y2="145"/>
+    <line x1="160" y1="335" x2="160" y2="345"/>
+    <line x1="200" y1="335" x2="200" y2="345"/>
+    <line x1="240" y1="335" x2="240" y2="345"/>
+    <line x1="280" y1="335" x2="280" y2="345"/>
+    <line x1="320" y1="335" x2="320" y2="345"/>
+    <line x1="360" y1="335" x2="360" y2="345"/>
+    <line x1="400" y1="335" x2="400" y2="345"/>
+    <line x1="440" y1="335" x2="440" y2="345"/>
+    <circle cx="300" cy="245" r="8"/>
+  </g>
+  <text x="300" y="385" text-anchor="middle" font-family="Georgia,serif" font-size="22" fill="#4a3526">Persian-Style Area Rug</text>
+  <text x="300" y="413" text-anchor="middle" font-family="-apple-system,Segoe UI,sans-serif" font-size="13" fill="#6b6358" letter-spacing="0.05em">PHOTO COMING SOON</text>
+</svg>
